@@ -1,0 +1,7 @@
+#!/bin/bash
+
+mkdir -p ~/repos
+
+newname=${1//[\/]/__}
+
+ln $1 ~/repos/$newname
