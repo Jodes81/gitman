@@ -10,3 +10,4 @@ ln -s ~/utils/gitman/commit-all ~/bin/
 ln -s ~/utils/gitman/start-ssh-agent ~/bin/
 ln -s ~/utils/gitman/add-repo ~/bin/
 
+add-repo ~/utils/gitman
