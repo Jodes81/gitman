@@ -4,7 +4,8 @@ repos=$(ls ~/repos)
 
 for repo in `ls ~/repos`; do
 
-echo ~/repos/$repo
+echo
+echo ------~/repos/$repo------
 pushd ~/repos/$repo
 commit
 popd
