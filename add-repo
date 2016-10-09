@@ -4,4 +4,4 @@ mkdir -p ~/repos
 
 newname=${1//[\/]/__}
 
-ln $1 ~/repos/$newname
+ln -s $1 ~/repos/$newname
