@@ -1,0 +1,5 @@
+#!/bin/bash
+
+linkname=${1//[\/]/__}
+
+rm ~/repos/$linkname

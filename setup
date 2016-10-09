@@ -4,10 +4,12 @@ chmod 0755 ~/utils/gitman/commit
 chmod 0755 ~/utils/gitman/commit-all
 chmod 0755 ~/utils/gitman/start-ssh-agent
 chmod 0755 ~/utils/gitman/add-repo
+chmod 0755 ~/utils/gitman/remove-repo
 
 ln -s ~/utils/gitman/commit ~/bin/
 ln -s ~/utils/gitman/commit-all ~/bin/
 ln -s ~/utils/gitman/start-ssh-agent ~/bin/
 ln -s ~/utils/gitman/add-repo ~/bin/
+ln -s ~/utils/gitman/remove-repo ~/bin/
 
 add-repo ~/utils/gitman
